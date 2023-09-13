@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+}
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  width: 85%;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: green;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+.heading {
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.joke {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 40px;
+  box-sizing: border-box;
+}
+.btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-color: rgba(255, 255, 255, 0.6);
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+
+  border-radius: 5px;
+  padding: 10px;
+  color: darkgreen;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.3);
+  transition: all 300ms ease-in-out;
+}
